@@ -1,0 +1,46 @@
+.hero-movie-container {
+  height: 90vh;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info-hero-movie {
+  width: 35%;
+  position: absolute;
+  left: 50px;
+  bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+}
+
+.info-hero-movie img {
+  width: 400px;
+}
+
+.info-hero-movie .desc-movie {
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.buttons {
+  display: flex;
+}
+.buttons button {
+  border: none;
+  border-radius: 5px;
+}
+
+.buttons .play-button {
+  padding: 5px 30px;
+}
+
+.buttons .more-button {
+  padding: 5px 40px;
+  background: var(--smoke-gray);
+}
